@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  1542257-1542258
+
+  Created by Phu on 4/10/17.
+  Copyright © 2017 Phu. All rights reserved.
+*/
+
+"menu_home" = "Home";
+"menu_counter" = "Area";
+"menu_statistical" = "Statistical";
+"menu_food" = "Food";
+"menu_currency" = "Currency";
+"menu_table" = "Table";
+
+"error" = "Error";
+"error_empty_typeCurrency" = "Type currecy cannot be empty";
+"error_empty_rateCurrency" = "Exchange rate currency cannot be empty";
+
+"success" = "Success";
+"done" = "Done";
+"ok" = "OK";
+"success_addCurrency" = "Currency has been added!";
+"success_editCurrency" = "Currency has been updated!";
+
+"titleCurrency" = "Currency";
+"titleAddCurrency" = "New Currency";
+"titleEditCurrency" = "Edit Currency";
+
+"lblCurrency" = "Currency";
+"lblExchangeRate" = "ExchangeRate";
+
+"btnAdd" = "Add";
+"btnEdit" = "Save";
+"btnDelete" = "Delete";
+
+"lblName" = "Name";
+"lblDescription" = "Description";
+"lblImages" = "Images";
+
+"titleCounter" = "Area";
+"titleAddCounter" = "New Area";
+"titleEditCounter" = "Edit Area";
+
+"error_empty_nameCounter" = "Area name cannot be empty";
+"error_empty_descriptionCounter" = "Area description cannot be empty";
+
+"success_addCounter" = "Area has been added!";
+"success_editCounter" = "Area has been updated!";
+
+"titleFood" = "Food";
+"titleAddFood" = "New Food";
+"titleEditFood" = "Edit Food";
+
+"lblType" = "Type";
+"lblPrice" = "Price (USD)";
+
+"foodTypeFood" = "Food";
+"foodTypeDrink" = "Drink";
+
+"error_empty_nameFood" = "Food name cannot be empty";
+"error_empty_descriptionFood" = "Food description cannot be empty";
+"error_empty_priceFood" = "Price Food cannot be empty";
+
+"success_addFood" = "Food has been added!";
+"success_editFood" = "Food has been updated!";
+
+"titleTable" = "Table";
+"titleAddtable" = "Add Table";
+"titleEditTable" = "Edit Table";
+
+"lblNumberOfTable" = "Number of Table";
+
+"error_empty_numberOfTable" = "Number of Table cannot be empty";
+"error_empty_descriptionTable" = "Description Table cannot be empty";
+
+"success_addTable" = "Table has been added!";
+"success_editTable" = "Table has been updated!";
+
+"lblTotalMoney" = "Total money";
+"btnCancel" = "Cancel";
+"btnPay" = "Pay";
+"btnAddFood" = "Add Food";
+
+"alertOpenTable" = "Notification";
+"contentOpenTable" = "Do you want open this Table?";
+"btnCancelOpenTable" = "Cancel";
+
+"inputNumber" = "Enter the quantity";
+
+"error_empty_numberOrder" = "Please input number";
+
+"contentCancelTable" = "Do you want cancel this table?";
+
+"contentPayTable" = "Do you want pay this table?";
+
+"radioRevenue" = "Revenue";
+"radioQuantity" = "Quantity";
+
+"selectTypeStatistical" = "Select the type of statistics";
+"chooseTime" = "Choose time";
+"choosePeriodOftime" = "In period of time";
+"lblDate" = "Date";
+"lblMonth" = "Month";
+
+"lblFrom" = "From";
+"lblTo" = "To";
+
+"lblStaticsOfProcuct" = "Statistics of products sold";
+
+"emptyCounter" = "There are no area. Please add the previous area.";

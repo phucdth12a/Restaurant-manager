@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Rate"; ObjectID = "4qr-YH-9vF"; */
+"4qr-YH-9vF.text" = "Rate";
+
+/* Class = "UILabel"; text = "Types"; ObjectID = "9Oj-xE-zni"; */
+"9Oj-xE-zni.text" = "Types";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "CtE-U5-TJf"; */
+"CtE-U5-TJf.text" = "Description";
+
+/* Class = "UILabel"; text = "Images"; ObjectID = "D8M-ae-8wE"; */
+"D8M-ae-8wE.text" = "Images";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "FK9-9l-VoG"; */
+"FK9-9l-VoG.text" = "Type";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Fun-GO-acr"; */
+"Fun-GO-acr.text" = "Name";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "Fvo-Ah-Ju8"; */
+"Fvo-Ah-Ju8.text" = "name";
+
+/* Class = "UILabel"; text = "description"; ObjectID = "HzD-4v-nEV"; */
+"HzD-4v-nEV.text" = "description";
+
+/* Class = "UILabel"; text = "Number of Table"; ObjectID = "NSa-sJ-cHX"; */
+"NSa-sJ-cHX.text" = "Number of Table";
+
+/* Class = "UILabel"; text = "(22600.00)"; ObjectID = "O5e-w9-NU8"; */
+"O5e-w9-NU8.text" = "(22600.00)";
+
+/* Class = "UILabel"; text = "rate"; ObjectID = "QVh-Dh-43h"; */
+"QVh-Dh-43h.text" = "rate";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "RO4-nC-j1D"; */
+"RO4-nC-j1D.text" = "name";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "Sit-nO-L0a"; */
+"Sit-nO-L0a.text" = "Description";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "SmR-TI-XOB"; */
+"SmR-TI-XOB.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Wko-ro-enA"; */
+"Wko-ro-enA.text" = "Name";
+
+/* Class = "UILabel"; text = "Statistical"; ObjectID = "X9Z-8B-K8i"; */
+"X9Z-8B-K8i.text" = "Statistical";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "ZDp-FX-2uz"; */
+"ZDp-FX-2uz.text" = "Description";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aq8-6m-p8v"; */
+"aq8-6m-p8v.text" = "Label";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "cRt-t8-iyQ"; */
+"cRt-t8-iyQ.text" = "type";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "eOC-Yb-hxL"; */
+"eOC-Yb-hxL.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "gVD-IH-lJT"; */
+"gVD-IH-lJT.text" = "Home";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "i0z-BT-Ltv"; */
+"i0z-BT-Ltv.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Price (usd)"; ObjectID = "idc-bv-r2p"; */
+"idc-bv-r2p.text" = "Price (usd)";
+
+/* Class = "UILabel"; text = "description"; ObjectID = "mh8-Nb-vbH"; */
+"mh8-Nb-vbH.text" = "description";
+
+/* Class = "UILabel"; text = "Images"; ObjectID = "sFB-UP-SQb"; */
+"sFB-UP-SQb.text" = "Images";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "tmm-i9-DBf"; */
+"tmm-i9-DBf.text" = "Name";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "uA5-ae-INt"; */
+"uA5-ae-INt.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";

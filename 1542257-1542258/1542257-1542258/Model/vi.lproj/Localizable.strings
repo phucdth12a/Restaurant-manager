@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  1542257-1542258
+
+  Created by Phu on 4/10/17.
+  Copyright © 2017 Phu. All rights reserved.
+*/
+"menu_home" = "Trang chủ";
+"menu_counter" = "Khu vực";
+"menu_statistical" = "Thống kê";
+"menu_food" = "Thức ăn";
+"menu_currency" = "Tiền tệ";
+"menu_table" = "Bàn ăn";
+
+"error" = "Lỗi";
+"error_empty_typeCurrency" = "Loại tiền tệ không thể để trống";
+"error_empty_rateCurrency" = "Tỷ giá không thể để trống";
+
+"success" = "Thành công";
+"done" = "Hoàn tất";
+"ok" = "Đồng ý";
+"success_addCurrency" = "Thêm tiền tệ thành công!";
+"success_editCurrency" = "Cập nhật tiền tệ thành công!";
+
+"titleCurrency" = "Tiền tệ";
+"titleAddCurrency" = "Tiền tệ mới";
+"titleEditCurrency" = "Cập nhật tiền tệ";
+
+"lblCurrency" = "Loại tiền tệ";
+"lblExchangeRate" = "Tỷ giá";
+
+"btnAdd" = "Thêm";
+"btnEdit" = "Lưu";
+"btnDelete" = "Xóa";
+
+"lblName" = "Tên";
+"lblDescription" = "Mô tả";
+"lblImages" = "Hình";
+
+"titleCounter" = "Khu vực";
+"titleAddCounter" = "Khu vực mới";
+"titleEditCounter" = "Cập nhật khu vực";
+
+"error_empty_nameCounter" = "Tên khu vực không thể để trống";
+"error_empty_descriptionCounter" = "Mô tả khu vực không thể để trống";
+
+"success_addCounter" = "Thêm khu vực thành công!";
+"success_editCounter" = "Cập nhật khu vực thành công!";
+
+"titleFood" = "Thức ăn";
+"titleAddFood" = "Thức ăn mới";
+"titleEditFood" = "Cập nhật thức ăn";
+
+"lblType" = "Loại";
+"lblPrice" = "Đơn giá (USD)";
+
+"foodTypeFood" = "Thức ăn";
+"foodTypeDrink" = "Đồ uống";
+
+"error_empty_nameFood" = "Tên thức ăn không thể để trống";
+"error_empty_descriptionFood" = "Mô tả thức ăn không thể để trống";
+"error_empty_priceFood" = "Đơn giá thức ăn không thể để trống";
+
+"success_addFood" = "Thức ăn được thêm thành công!";
+"success_editFood" = "Thức ăn được cập nhật thành công!";
+
+"titleTable" = "Bàn";
+"titleAddtable" = "Bàm mới";
+"titleEditTable" = "Cập nhật bàn";
+
+"lblNumberOfTable" = "Số của bàn";
+
+"error_empty_numberOfTable" = "Số của bàn không thể để trống";
+"error_empty_descriptionTable" = "Mô tả bàn không thể để trông";
+
+"success_addTable" = "Bàn được thêm thành công!";
+"success_editTable" = "Bàn được cập nhật thành công!";
+
+"lblTotalMoney" = "Tổng tiền";
+"btnCancel" = "Huỷ bàn";
+"btnPay" = "Thanh toán";
+"btnAddFood" = "Thêm món";
+
+"alertOpenTable" = "Thông báo";
+"contentOpenTable" = "Bạn có muốn mở bàn?";
+"btnCancelOpenTable" = "Huỷ";
+
+"inputNumber" = "Nhập số lượng";
+
+"error_empty_numberOrder" = "Vui lòng nhập số lượng";
+
+"contentCancelTable" = "Bạn có muốn huỷ bàn?";
+
+"contentPayTable" = "Bạn có muốn thanh toán bàn?";
+
+"radioRevenue" = "Doanh thu";
+"radioQuantity" = "Số lượng";
+
+"selectTypeStatistical" = "Chọn loại thống kê";
+"chooseTime" = "Chọn thời gian";
+"choosePeriodOftime" = "Trong khoản thời gian";
+"lblDate" = "Ngày";
+"lblMonth" = "Tháng";
+
+"lblFrom" = "Từ";
+"lblTo" = "Đến";
+
+"lblStaticsOfProcuct" = "Thống kê sản phẩm đã bán";
+
+"emptyCounter" = "Không có khu vực. Vui lòng thêm khu vực trước.";
+
+

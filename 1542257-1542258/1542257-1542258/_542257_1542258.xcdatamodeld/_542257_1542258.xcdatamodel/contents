@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bill" representedClassName=".Bill" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMoney" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toBillingDetails" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BillingDetail" inverseName="toBill" inverseEntity="BillingDetail" syncable="YES"/>
+        <relationship name="toTable" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table" inverseName="toBills" inverseEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="BillingDetail" representedClassName=".BillingDetail" syncable="YES">
+        <attribute name="money" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toBill" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bill" inverseName="toBillingDetails" inverseEntity="Bill" syncable="YES"/>
+        <relationship name="toFood" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Food" inverseName="toBillingDetails" inverseEntity="Food" syncable="YES"/>
+    </entity>
+    <entity name="Counter" representedClassName=".Counter" syncable="YES">
+        <attribute name="describe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toImages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="toCounter" inverseEntity="Image" syncable="YES"/>
+        <relationship name="toTables" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Table" inverseName="toCounter" inverseEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="Currency" representedClassName=".Currency" syncable="YES">
+        <attribute name="exchangeRate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName=".Food" syncable="YES">
+        <attribute name="describe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toBillingDetails" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BillingDetail" inverseName="toFood" inverseEntity="BillingDetail" syncable="YES"/>
+        <relationship name="toImages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="toFood" inverseEntity="Image" syncable="YES"/>
+        <relationship name="toOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="toFood" inverseEntity="Order" syncable="YES"/>
+        <relationship name="toTables" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Table" inverseName="toFoods" inverseEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="Image" representedClassName=".Image" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="toCounter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Counter" inverseName="toImages" inverseEntity="Counter" syncable="YES"/>
+        <relationship name="toFood" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Food" inverseName="toImages" inverseEntity="Food" syncable="YES"/>
+        <relationship name="toTable" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table" inverseName="toImages" inverseEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="Order" representedClassName=".Order" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toFood" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Food" inverseName="toOrders" inverseEntity="Food" syncable="YES"/>
+        <relationship name="toTable" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table" inverseName="toOrders" inverseEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="Table" representedClassName=".Table" syncable="YES">
+        <attribute name="infomation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toBills" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bill" inverseName="toTable" inverseEntity="Bill" syncable="YES"/>
+        <relationship name="toCounter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Counter" inverseName="toTables" inverseEntity="Counter" syncable="YES"/>
+        <relationship name="toFoods" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Food" inverseName="toTables" inverseEntity="Food" syncable="YES"/>
+        <relationship name="toImages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="toTable" inverseEntity="Image" syncable="YES"/>
+        <relationship name="toOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="toTable" inverseEntity="Order" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bill" positionX="-558" positionY="246" width="128" height="105"/>
+        <element name="BillingDetail" positionX="-378" positionY="246" width="128" height="105"/>
+        <element name="Counter" positionX="-281" positionY="-225" width="128" height="105"/>
+        <element name="Currency" positionX="-630" positionY="-135" width="128" height="75"/>
+        <element name="Food" positionX="-1278" positionY="234" width="128" height="165"/>
+        <element name="Image" positionX="34" positionY="117" width="128" height="105"/>
+        <element name="Order" positionX="-1260" positionY="-108" width="128" height="90"/>
+        <element name="Table" positionX="-1521" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>
